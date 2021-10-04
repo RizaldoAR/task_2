@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+<head>
+    <title>Form Pendaftaran</title>
+</head>
+
+<div class="header">
+    <a class="header-text" style="padding-left: 50; ">
+        <h2>Form Pendaftaran</h2>
+    </a>
+</div>
+<div class="body">
+    <form action="/">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+        <label for="lname">Gender</label>
+        <input type="radio" id="radiobtn" name="gender" value="man" >
+        <label for="man">Man</label>
+        <input type="radio" id="radiobtn" name="gender" value="woman" >
+        <label for="woman">Woman</label>
+        <br>
+        <br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="indonesia">Indonesia</option>
+          <option value="england">England</option>
+          <option value="usa">USA</option>
+        </select>
+      
+        <input type="submit" value="Submit">
+      </form>
+    
+</div>
+   
+<style>
+    .header { 
+        padding: 1px;
+        text-align: center;
+        background-color: #fff9de;
+        color:#2e3131;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    body{
+        border-radius: 5px;
+        background-color: #22a7f0;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color:#2e3131;
+    }
+
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    }
+    input[type=radio], select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+    
+    }
+
+    input[type=submit] {
+    width: 100%;
+    background-color: #bdc3c7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+    background-color: #45a049;
+    }
+
+</style>
+</html>
+
+
